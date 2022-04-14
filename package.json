@@ -1,0 +1,30 @@
+{
+  "name": "c4.u1.m4_gp_heroku-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VWashingtonCoder/C4.U1.M4_GP_heroku-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VWashingtonCoder/C4.U1.M4_GP_heroku-deployment/issues"
+  },
+  "homepage": "https://github.com/VWashingtonCoder/C4.U1.M4_GP_heroku-deployment#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0"
+  }
+}
