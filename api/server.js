@@ -65,6 +65,7 @@ server.use(cors());
 
 server.get('/', async (req, res, next) => {
     //res.json('hello World');
+    console.log('Sanity Check')
     res.json({ MESSAGE: process.env.MESSAGE});
 })
 
